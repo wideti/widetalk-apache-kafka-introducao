@@ -55,9 +55,13 @@ Response:
 ]
 ```
 
-## Arquitetura da solução
+## Arquitetura
 
-// imagem aqui
+Utilizamos o padrão <a href="https://martinfowler.com/bliki/CQRS.html">CQRS (Command Query Responsibility Segregation)</a> e criamos de forma simples um sistem que aprova transações financeiros de forma assíncrona.
+
+Abaixo imagem para ilustrar nossa solução:
+
+![Arquitetura](https://raw.githubusercontent.com/wideti/widetalk-apache-kafka-introducao/master/curso_kafka-09%20-%20Projeto%20inicial.jpg)
 
 #### Transaction producer
 
