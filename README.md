@@ -57,7 +57,7 @@ Response:
 
 ## Arquitetura
 
-Utilizamos o padrão <a href="https://martinfowler.com/bliki/CQRS.html">CQRS (Command Query Responsibility Segregation)</a> e criamos de forma simples um sistem que aprova transações financeiros de forma assíncrona.
+Utilizamos o padrão <a href="https://martinfowler.com/bliki/CQRS.html">CQRS (Command Query Responsibility Segregation)</a> e criamos uma solução simples para fins de estudo um sistema que aprova transações financeiras de forma assíncrona.
 
 Abaixo imagem para ilustrar nossa solução:
 
