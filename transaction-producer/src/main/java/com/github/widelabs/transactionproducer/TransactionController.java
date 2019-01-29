@@ -18,7 +18,7 @@ public class TransactionController {
         this.transactionService = transactionService;
     }
 
-    @PostMapping("/transaction")
+    @PostMapping("/transactions")
     public ResponseEntity<Transaction> newTransaction(@RequestBody Transaction transaction) throws JsonProcessingException {
         transactionService.publish(transaction);
         return new ResponseEntity<>(transaction, HttpStatus.ACCEPTED);

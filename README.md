@@ -18,7 +18,7 @@ apenas Kafka no seu padrão pub/sub.
 
 #### Gerar uma transação:
 
-[POST] http://localhost:8090/transaction
+[POST] http://localhost:8090/transactions
 
 Body:
 ```json
